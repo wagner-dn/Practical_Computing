@@ -56,7 +56,7 @@ else:
 			if RecordNum > -1:  # are we past any header lines?
 				# Add on to the end of the 2nd element of the list
 				Sequences[RecordNum][1] += Line
-				# Add to the dictionary value for teh present Key
+				# Add to the dictionary value for the present Key
 				SeqDict[SeqKey] += Line
 				
 	Infile.close()
